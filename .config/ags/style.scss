@@ -1,0 +1,153 @@
+.Bar {
+    background-color: transparent;
+    font-weight: 400;
+    font-family: 'Neue Helvectiva';
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+}
+
+.leftContInfo {
+    background-image: linear-gradient(to bottom, rgba(36, 37, 46, 0.8), rgba(62, 64, 78, 0.8));
+}
+
+.leftContCairo{
+}
+
+.centerCont {
+}
+
+.audioPopover {
+    min-width: 350px;
+}
+
+.audioPopoverTab {
+    min-width: 135px;
+}
+
+.rightContInfo {
+    background-image: linear-gradient(to bottom, rgba(36, 37, 46, 0.8), rgba(62, 64, 78, 0.8));
+}
+
+.rightContCairo {
+}
+
+.cairoLine {
+    margin-top: 3px;
+    margin-bottom: 10px;
+}
+
+.mediaContainer {
+    // border: 2px solid white;
+    min-height: 100px;
+    margin: 10px 0;
+    background-image: conic-gradient(
+        from -45deg at 0 0,
+        rgba(223, 107, 78, 0.8) 0%,
+        rgba(60, 71, 91, 0.8) 48%
+    );
+}
+
+.mediaInfoContainer {
+}
+
+.mediaTitle {
+    font-size: 20px;
+    font-weight: 100;
+    color: rgba(209,168,140,255);
+    text-shadow: 2px 2px 5px black;
+    margin-bottom: 5px;
+}
+
+.mediaAlbum {
+    font-size: 17px;
+    text-shadow: 2px 2px 5px black;
+    margin-bottom: 5px;
+}
+
+.mediaArtist {
+    font-size: 17px;
+    text-shadow: 2px 2px 5px black;
+}
+
+.coverArtContainer {
+    padding: 10px;
+}
+
+.mediaButton {
+    font-family: "Material Icons";
+    background-color: transparent;
+    font-size: 2em;
+    font-weight: 100;
+    text-shadow: 1px 1px 2px black;
+}
+
+.mediaButton:hover {
+    background-image: none;
+}
+
+picture {
+    box-shadow: 2px 2px 2px black;
+}
+
+popover {
+    margin-top: 4px;
+    contents {
+        background-color: transparent;
+        background-image: linear-gradient(to bottom, rgba(36, 37, 46, 0.95), rgba(62, 64, 78, 0.9));
+    }
+    arrow {
+        min-width: 0px;
+        min-height: 0px;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+scale {
+    border-radius: 0px;
+    trough {
+        background-color: rgb(92, 90, 87);
+        min-height: 5px;
+        box-shadow: 1px 1px 3px rgb(20, 20, 20);
+        border-radius: 0px;
+        slider {
+            background-color: transparent;
+            min-width: 16px;
+            min-height: 16px;
+            text-shadow: none;
+            box-shadow: none;
+            border-radius: 0px;
+        }
+        highlight {
+            background-image: linear-gradient(to right, rgba(172, 109, 49, 0.95), rgba(196, 159, 129, 0.95));
+            border-radius: 0px;
+        }
+    }
+}
+
+separator {
+    min-height: 4px;
+    margin: 2px 0 10px 0;
+}
+
+button {
+    border-radius: 0px;
+    font-weight: 500;
+    background-color: transparent;
+    padding: 2px 5px;
+}
+
+button:hover {
+    background-image: linear-gradient(to bottom, rgb(51, 56, 66, 0.5), rgba(88, 91, 112, 0.5));
+    
+}
+
+image {
+    -gtk-icon-size: 18px;
+}
+
+.volumeIcons {
+    -gtk-icon-size: 21px;
+    margin: 0 2px;
+}
